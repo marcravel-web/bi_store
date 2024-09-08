@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.navbar {
+    /* margin-left: -10px;
+    margin-right: %; */
+    /* padding: 5px 5px 5px 5px; */
+    background: transparent;
+    transition: all 0.5s; /* Smooth transition effect */
+}
+
+.navbar-scrolled {
+    background: #01121c; /* Or any color you prefer */
+}
+
+#brand {
+    margin-left: 10%;
+    /* padding-left: 25px; */
+}
+
+#nav-list {
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+#nav-list a {
+    font-size: 1.4em;
+}
+
+.navbar-toggler {
+    margin-right: 10%;
+}
+
+.carousel-caption {
+    margin-top: 150px;
+}
+
+.c-item {
+    height: 600px;
+}
+
+.c-img {
+   height: 100%;
+   object-fit: cover;
+   filter: brightness(0.6);
+}
+
+#main-content {
+    margin-top: 75px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #01121c;
+}
+
+.fa-facebook {
+    font-size: 35px;   
+}

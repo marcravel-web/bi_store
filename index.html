@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Bi Store</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark py-3">
+      <div class="container-fluid">
+        <a id="brand" class="navbar-brand" href="#">
+          <img src="assets/LOGO.png" alt="Bi Store" width="105" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ms-5" id="navbarNav">
+          <ul id="nav-list" class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Produits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactez-nous</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item" data-bs-interval="3000">
+          <img src="assets/phones.jpg" class="d-block w-100 c-img" alt="phones">
+          <div class="carousel-caption top-0">
+            <p class="mt-5 display-5 fw-bolder text-uppercase">Choix premium</p>
+            <h1 class="fs-3">Explorez les derniers smartphones chez Bi Store !.</h1>
+            <a href="tel:+261382407349"><button class="btn btn-primary mt-4 px-4 py-2 fs-5">Commander maintenant</button></a>
+          </div>
+        </div>
+        <div class="carousel-item c-item" data-bs-interval="3000">
+          <img src="assets/accessories2.jpg" class="d-block w-100 c-img" alt="accessoires">
+          <div class="carousel-caption top-0">
+            <p class="mt-5 display-5 fw-bolder text-uppercase">Accessoires essentiel</p>
+            <h1 class="fs-3">Nos accessoires protègent et embellissent vos appareils.</h1>
+            <a href="tel:+261382407349"><button class="btn btn-primary mt-4 px-4 py-2 fs-5">Commander maintenant</button></a>
+          </div>
+        </div>
+        <div class="carousel-item c-item" data-bs-interval="3000">
+          <img src="assets/accessories.jpg" class="d-block w-100 c-img" alt="accessoires">
+          <div class="carousel-caption top-0">
+            <p class="mt-5 display-5 fw-bolder text-uppercase">Boostez vos gadgets</p>
+            <h1 class="fs-3">Améliorez vos performances avec Bi Store !</h1>
+            <a href="tel:+261382407349"><button class="btn btn-primary mt-4 px-4 py-2 fs-5">Commander maintenant</button></a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+
+  <div class="container" id="main-content">
+    <!--Section: Content-->
+    <section>
+      <div class="row">
+        <div class="col-md-6 gx-5 mb-4">
+          <div class="bg-image hover-overlay shadow-2-strong" data-mdb-ripple-init data-mdb-ripple-color="light">
+            <img src="assets/01.jpg" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 gx-5 mb-4">
+          <h4><strong>Smartphones pour Tous Vos Besoins</strong></h4>
+          <p class="text-muted">
+            Bienvenue chez Bi Store ! Découvrez notre vaste sélection de smartphones dernier cri, conçus
+            pour offrir performance, style et durabilité. Que vous recherchiez un modèle haut de gamme ou une option
+            plus abordable, nous avons le téléphone parfait pour vous.
+          </p>
+          <p><strong>Accessoires qui Font la Différence</strong></p>
+          <p class="text-muted">
+            "Optimisez votre expérience mobile avec nos accessoires indispensables. De la protection élégante aux
+            gadgets innovants, Bi Store propose tout ce qu'il vous faut pour personnaliser et protéger vos
+            appareils avec style.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Section: Content-->
+
+    <hr class="my-5" />
+
+    <!--Section: Content-->
+    <section class="text-center">
+      <h4 class="mb-5"><strong>Produits en Vedette</strong></h4>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="card">
+            <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img src="assets/phones/15pm.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">iPhone 15 Pro Max</h5>
+              <p class="card-text">
+                Découvrez l’iPhone 15 Pro Max avec un écran incroyable, des performances rapides et une caméra avancée
+                pour des photos parfaites.
+              </p>
+              <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Plus de détails</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img src="assets/phones/n13pro.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Redmi Note 13 Pro</h5>
+              <p class="card-text">
+                Le Redmi Note 13 Pro offre un grand écran, des performances fiables et une batterie longue durée, idéal
+                pour un usage quotidien.
+              </p>
+              <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Plus de détails</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img src="assets/phones/s24.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Samsung S24 Ultra</h5>
+              <p class="card-text">
+                Le Samsung S24 Ultra offre un écran brillant, des performances rapides et une caméra puissante pour des
+                photos incroyables.
+              </p>
+              <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Plus de détails</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section: Content-->
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
+      <!-- Left -->
+      <div class="d-none d-lg-block">
+        <span>Restez connectés avec nous sur les réseaux sociaux :</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/profile.php?id=61562856385916" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>BI STORE
+            </h6>
+            <p>
+              Votre destination en ligne pour des téléphones et accessoires de qualité.
+              Trouvez les meilleures offres et bénéficiez d’un service client exceptionnel.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Liens Utiles
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Produits</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">À propos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Commande en ligne</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">FAQ</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Antanimena, Victoria Plaza</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              bistore-info@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +261 38 23 074 49</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Marc Anjaniaina</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
